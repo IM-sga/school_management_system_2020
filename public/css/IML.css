@@ -1,0 +1,67 @@
+body {
+	margin: 0;
+	background-color: #d9ef81;
+}
+.button:hover {
+	background-color: #000;
+}
+ a{
+	text-decoration: none;
+	color: #f7f7f7;
+	padding: 15px;
+	font-size: 15px;
+
+}
+a:hover {
+	color: #000;
+	
+
+
+}
+#main-header h1 {
+	color: #434738;
+	background-color: #b5d43c;
+	margin-top: 0;
+	font-family: Geneva;
+	font-size: 36px; 
+	padding:10px;
+	text-align: center;
+}
+
+
+#main-nav .button {
+ background-color: #b5d43c;
+ border-style: none;
+ padding-right: 20px;
+ margin-left: 8px;
+
+}
+#main-art {
+	float: left;
+	width: 70%;
+	padding: 5px;
+	box-sizing: border-box;
+	margin-top: 3em;
+}
+#main-art h2{
+	box-sizing: border-box;
+	left:77%;
+}
+#main-aside {
+	float: right;
+	width: 30%;
+	padding: 5px;
+	box-sizing: border-box;
+	margin-top: 3em;
+
+
+}
+#main-aside p {
+	background-color: #434738;
+	color: #f7f7f7;
+	padding: 10px;
+}
+#main-aside h3{
+	box-sizing: border-box;
+	right: 33%;
+}
