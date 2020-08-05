@@ -31,30 +31,6 @@
   </div>
 </nav>
 
-<main role="main" class="container">
-  <div class="jumbotron">
-    <h1>Navbar example</h1>
-    <p class="lead">This example is a quick exercise to illustrate how fixed to top navbar works. As you scroll, it will remain fixed to the top of your browser’s viewport.</p>
-    <a class="btn btn-lg btn-primary" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/components/navbar/" role="button">View navbar docs &raquo;</a>
-  </div>
-</main>
-
-	<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-	  <header class="masthead mb-auto">
-	    <div class="inner">
-	      <h1 class="masthead-brand text-center">IML Academy</h1>
-	      <nav class="nav nav-masthead justify-content-center">
-	        <a class="nav-link" href="#">Home</a>
-	        <a class="nav-link" href="#">About Us</a>
-	        <a class="nav-link" href="#">Contact</a>
-	        <a class="nav-link" href="#">Campus Branch</a>
-	        <a class="nav-link" href="pages/imlogin.php">Log In</a>
-	        <a class="nav-link" href="pages/chooseRole.php">Sign Up</a>
-	      </nav>
-	    </div>
-	  </header>
-	</div>
-
 	<div id= "main-art">
 		<h2 class="page-header">LOREM IPSUM</h2>
 		<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
