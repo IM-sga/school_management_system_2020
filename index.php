@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>IML Acad</title>
+	<title>IML Academy</title>
 	<!-- <link rel="stylesheet" type="text/css" href="public/css/IML.css"> -->
 
 	<meta charset="utf-8">
