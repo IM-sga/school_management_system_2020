@@ -5,8 +5,18 @@
 	<div>
 		<h2>Choose your role:</h2>
 		<div class="container"> 
-			<a class="pull-left btn btn-primary" href="studentRegistration.php">I'm a Student</a>
-			<a class="pull-right btn btn-danger" href="teacherRegistration.php">I'm a Teacher</a>
+			<ul class="list-unstyled w-30 p-5 mr-auto">
+				<li>
+					<a class="pull-left list-group-item-primary" href="studentRegistration.php">I'm a Student</a>
+				</li>
+			</ul>
+			<ul class="list-unstyled w-25 p-5 pull ml-auto">
+				<li>
+					<a class="pull-right list-group-item-danger" href="teacherRegistration.php">I'm a Teacher</a>
+				</li>
+			</ul>
+			
+			
 		</div>
 	</div>
 	
