@@ -45,29 +45,27 @@
 	</nav>
 	
 	<!-- Image slider(Carousel) with Website's About and Tag lines  -->
-	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  		<div class="carousel-inner">
-			<div class="carousel-item">
-				<img class="d-block w-100" src="public/assets/images/background.jpg" alt="First slide">
+	<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="public/assets/images/background.jpg" class="d-block w-100" alt="b">
 			</div>
 			<div class="carousel-item">
-				<img class="d-block w-100" src="public/assets/images/background2.jpg" alt="Second slide">
+				<img src="public/assets/images/background2.jpg" class="d-block w-100" alt="b2">
 			</div>
 			<div class="carousel-item">
-				<img class="d-block w-100" src="public/assets/images/background3.jpg" alt="Third slide">
+				<img src="public/assets/images/background3.jpg" class="d-block w-100" alt="b3">
 			</div>
- 		</div>
-		<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleSlidesOnly" role="button" data-slide="prev">
 			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 			<span class="sr-only">Previous</span>
 		</a>
-		<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+		<a class="carousel-control-next" href="#carouselExampleSlidesOnly" role="button" data-slide="next">
 			<span class="carousel-control-next-icon" aria-hidden="true"></span>
 			<span class="sr-only">Next</span>
 		</a>
 	</div>
-
-
 
 
 
@@ -108,4 +106,7 @@
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commod.</p>
 	</div>
 </body>
+
+
+
 </html>
