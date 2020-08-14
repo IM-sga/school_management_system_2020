@@ -7,5 +7,5 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="../public/css/bootstrap.min.css">
 	<script href="../public/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="../public/css/index.css">
+	<link rel="stylesheet" type="text/css" href="../public/css/style.css">
 	
