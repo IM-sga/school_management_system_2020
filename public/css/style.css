@@ -1,0 +1,53 @@
+
+/*Styles for imlogin.php*/
+#login-form {
+    background-color: #8cd667;
+    
+}
+form #login {
+    padding: 10px;
+}
+
+/*Styles for studentRegistration.php*/
+#stuReg {
+    background-color: #d9ef81;
+}
+
+#f-back {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+/*Styles for teacherRegistration.php*/
+#teaReg {
+    background-color: #d9ef81;
+}
+
+/* logo */
+.logo {
+    height: 1000px;
+    width: 20px;
+}
+
+/* For chooseRole.php */
+
+
+
+/* For Jumbotron */
+.jumbotron {
+    background-image: url(../assets/images/background4.jpg);
+    background-size: 100%; 
+    background: no repeat center center;
+    height: 80vh;
+    min-height: 300px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    /* background-image: url(public/assets/images/background4.jpg); " */
+}
+
+
+.navbar {
+    height: 12vh;
+    background-color: #d9ef81;
+}
