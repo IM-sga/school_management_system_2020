@@ -38,16 +38,18 @@ form #login {
 .jumbotron {
     background-image: url(../assets/images/background4.jpg);
     background-size: 100%; 
-    background: no repeat center center;
+    background: no-repeat center center;
     height: 80vh;
     min-height: 300px;
     -webkit-background-size: cover;
     background-size: cover;
-    /* background-image: url(public/assets/images/background4.jpg); " */
+   
 }
 
-
+/* For navbar */
 .navbar {
     height: 12vh;
     background-color: #d9ef81;
 }
+
+
