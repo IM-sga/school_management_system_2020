@@ -17,7 +17,7 @@
 			</div>
 			<div class="col-md-6 col-sm-6 col-xs-12">
 				<div class="card p-4 bg-info ml-auto" style="width: 18rem;">
-						<img class="card-img-top" src="../public/assets/images/teacher2.png" alt="Teacher with eyeglasses. PNG file">
+						<img class="card-img-top" src="../public/assets/images/teacher.png" alt="Teacher with eyeglasses. PNG file">
 						<div class="card-body">
 							<a class="pull-left btn btn-danger btn-block" href="teacherRegistration.php">I'm a Teacher</a>
 						</div>
