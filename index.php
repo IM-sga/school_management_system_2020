@@ -11,7 +11,6 @@
 
 </head>
 <body>
-	
 	<!-- Sticky navbar -->
 	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
 		<a class="navbar-brand" href="index.php"><img class="img-fluid p-1" src="public/assets/images/logo6-2.png"></a>
@@ -27,10 +26,10 @@
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item">
-					<a class="nav-link" href="#">Campus Branches</a>
+					<a class="nav-link" href="#campus-branch">Campus Branches</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Contact</a>
+					<a class="nav-link" href="#contact">Contact</a>
 				</li>
 			</ul>
 			<ul class="navbar-nav ml-auto">
@@ -51,10 +50,7 @@
 			<h1 class="display-4">IML Academy</h1>
 			<p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
 			<hr class="my-4">
-			<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-			<p class="lead">
-				<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-			</p>
+			<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
 		</div>
 	</div>
 
@@ -98,6 +94,43 @@
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commod.</p>
 	</div>
+	<hr class="my-4">
+	<div id="campus-branch"class="container">
+		<h1>CAMPUS BRANCHES</h1>
+		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam delectus 
+		voluptatibus nulla explicabo doloremque minima temporibus quibusdam enim repudiandae 
+		dolore! Temporibus culpa obcaecati eos ut tempore aspernatur quaerat cumque explicabo.</p>
+		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam delectus 
+		voluptatibus nulla explicabo doloremque minima temporibus quibusdam enim repudiandae 
+		dolore! Temporibus culpa obcaecati eos ut tempore aspernatur quaerat cumque explicabo.</p>
+		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam delectus 
+		voluptatibus nulla explicabo doloremque minima temporibus quibusdam enim repudiandae 
+		dolore! Temporibus culpa obcaecati eos ut tempore aspernatur quaerat cumque explicabo.</p>
+		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam delectus 
+		voluptatibus nulla explicabo doloremque minima temporibus quibusdam enim repudiandae 
+		dolore! Temporibus culpa obcaecati eos ut tempore aspernatur quaerat cumque explicabo.</p>
+	</div>
+	<hr class="display-4">
+	<div id="contact" class="container">
+		<h1>CONTACT</h1>
+		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam delectus 
+		voluptatibus nulla explicabo doloremque minima temporibus quibusdam enim repudiandae 
+		dolore! Temporibus culpa obcaecati eos ut tempore aspernatur quaerat cumque explicabo.</p>
+		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam delectus 
+		voluptatibus nulla explicabo doloremque minima temporibus quibusdam enim repudiandae 
+		dolore! Temporibus culpa obcaecati eos ut tempore aspernatur quaerat cumque explicabo.</p>
+	
+	</div>
+	
+	<hr class="display-4">
+	<footer class="container">
+		<p class="float-right"><a href="#">Back to top</a></p>
+		<!-- Try make this with Modal -->
+		<p>&copy; 2020 IML Academy &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+	</footer>
+	
+
+
 </body>
 
 
