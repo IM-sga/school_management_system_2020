@@ -12,9 +12,11 @@
 </head>
 <body>
 	<!-- Sticky navbar -->
-	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-		<a class="navbar-brand" href="index.php"><img class="img-fluid p-1" src="public/assets/images/logo6-2.png"></a>
-		<button class="navbar-toggler" 
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<a class="navbar-brand" href="index.php">
+			<img class="img-responsive" src="public/assets/images/logo5.png">
+		</a>
+		<button class="navbar-toggler"
 				type="button" 
 				data-toggle="collapse" 
 				data-target="#navbarResponsive" 
@@ -32,7 +34,7 @@
 					<a class="nav-link" href="#contact">Contact</a>
 				</li>
 			</ul>
-			<ul class="navbar-nav ml-auto">
+			<ul class="navbar-nav ml-auto" id="login">
 				<li class="nav-item">
 					<a href="pages/imlogin.php" class="btn btn-outline-success ml-2 my-sm-0">Log In</a>
 				</li>
@@ -43,22 +45,20 @@
 		</div>
 	</nav>
 	
-	
 	<!-- Jumbotron -->
 	<div class="jumbotron jumbotron-fluid">
-		<div class="container">
-			<h1 class="display-4">IML Academy</h1>
-			<p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-			<hr class="my-4">
-			<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+		<div class="card ml-5" style="width: 24rem;">
+			<div class="card-body">
+				<h3 class="card-title">Welcome to IML Academy</h3>
+				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				<a href="#" class="btn btn-warning">Go somewhere</a>
+			</div>
 		</div>
 	</div>
 
 
-
-
-
 	<!-- content -->
+	
 	<div class="mt-5">
 		<h2 class="page-header">LOREM IPSUM</h2>
 		<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
