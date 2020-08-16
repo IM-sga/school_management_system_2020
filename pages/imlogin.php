@@ -13,7 +13,7 @@
 	</div>
 	
 	<div id="login-form" class="container">
-		<form id="login" method="POST" action="../forms/login.php">
+		<form method="POST" action="../forms/login.php">
 			<div class="p-2 pt-3">
 				<label for="Username">Username:</label>
 				<input class="form-control" type="text" name="username">	
