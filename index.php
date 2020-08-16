@@ -12,7 +12,7 @@
 </head>
 <body>
 	<!-- Sticky navbar -->
-	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top flex-md-nowrap shadow">
 		<a class="navbar-brand" href="index.php">
 			<img class="img-responsive" src="public/assets/images/logo5.png">
 		</a>
