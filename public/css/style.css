@@ -1,13 +1,8 @@
-
 /*Styles for imlogin.php*/
 #login-form {
     background-color: #8cd667;
     
 }
-form #login {
-    padding: 10px;
-}
-
 /*Styles for studentRegistration.php*/
 #stuReg {
     background-color: #d9ef81;
@@ -27,21 +22,14 @@ form #login {
 
 /* For Jumbotron */
 .jumbotron {
-    background-image: url(../assets/images/background4.jpg);
+    background-image: url(../assets/images/background.jpg);
     background-size: 100%; 
-    background: no repeat center center;
+    background: no repeat;
     height: 80vh;
     min-height: 300px;
     -webkit-background-size: cover;
     background-size: cover;
    
-}
-
-/* For navbar */
-.navbar {
-    height: 12vh;
-    min-height: 10vh;
-    background-color: #d9ef81;
 }
 
 
