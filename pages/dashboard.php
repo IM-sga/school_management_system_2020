@@ -1,24 +1,23 @@
 <?php require '../partials/head.php'; ?>
-<title>IML Dashboard Page</title>
+<title>IML Dashboard</title>
 <?php //require '../partials/header.php'; ?>
 
 <body>
-	<nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
-	  <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="#">IML Academy </a>
-	  <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-toggle="collapse" data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-	  <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
-	  <form action="../forms/logout.php" method="POST">
-		  <ul class="navbar-nav px-3">
-		    <li class="nav-item text-nowrap">
-		      <a class="nav-link" name="logout">
-		    Sign out</a>
-		    </li>
-		  </ul>
-	  </form>
+	<nav class="navbar navbar-light sticky-top bg-light flex-md-nowrap p-0 shadow">
+	  <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="../index.php">
+	  	<img class="img-responsive" src="../public/assets/images/logo5.png">
+	  </a>
+	 	 <form class="" action="../forms/logout.php" method="POST">
+			<input 
+				name="logout"
+				class="nav-item btn btn-warning m-2"   
+				type="submit" 
+				value="Log-out"
+				role="button"
+			>
+		</form>
 	</nav>
-
+	
 	<div class="container-fluid">
 	  <div class="row">
 	    <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
@@ -119,15 +118,6 @@
 	</h1>
 
 	
-	
-	<form action="../forms/logout.php" method="POST">
-		<input 
-			name="logout"
-			class="btn btn-primary" 
-			type="submit" 
-			value="Log-out"
-		>
-	</form>
 
 
 <?php require '../partials/footer.php'; ?>
