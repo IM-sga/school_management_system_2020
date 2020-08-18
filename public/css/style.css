@@ -1,8 +1,29 @@
-/*Styles for imlogin.php*/
+/* ---HOMEPAGE (index.php)--- */
+/* JUMBOTRON */
+.jumbotron {
+    background-image: url(../assets/images/background.jpg);
+    background-size: 100%; 
+    background: no repeat;
+    height: 80vh;
+    min-height: 300px;
+    -webkit-background-size: cover;
+    background-size: cover;
+   
+}
+/* CARD */
+.card {
+    width: 24rem;
+}
+
+
+/* ---LOG IN PAGE (imlogin.php) --- */
 #login-form {
     background-color: #8cd667;
     
 }
+
+/* --- REGISTRATION FORM --- */
+
 /*Styles for studentRegistration.php*/
 #stuReg {
     background-color: #d9ef81;
@@ -20,16 +41,8 @@
 }
 
 
-/* For Jumbotron */
-.jumbotron {
-    background-image: url(../assets/images/background.jpg);
-    background-size: 100%; 
-    background: no repeat;
-    height: 80vh;
-    min-height: 300px;
-    -webkit-background-size: cover;
-    background-size: cover;
-   
+/* --- FOOTER (partials/footer.php) ---  */
+.footer {
+    background-color: #d9ef81;
 }
-
 
