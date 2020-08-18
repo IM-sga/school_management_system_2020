@@ -14,7 +14,7 @@
 	<!-- Sticky navbar -->
 	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top flex-md-nowrap shadow">
 		<a class="navbar-brand" href="index.php">
-			<img class="img-responsive" src="public/assets/images/logo5.png">
+			<img src="public/assets/logo/logo.png">
 		</a>
 		<button class="navbar-toggler"
 				type="button" 
