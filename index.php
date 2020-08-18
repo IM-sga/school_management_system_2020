@@ -137,7 +137,7 @@
 	</footer>
 	
 	
-	<script src="public/js/jquery-3.5.1.slim.js"></script>
+	<script src="public/js/jquery-3.5.1.slim.min.js"></script>
 	<script href="public/js/bootstrap.min.js"></script>
 
 	<script>
