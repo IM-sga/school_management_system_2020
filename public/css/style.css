@@ -46,3 +46,16 @@
     background-color: #d9ef81;
 }
 
+#quotation {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 50px;
+}
+#quotation p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+#quotation p.author {
+    color: #666;
+    font-size: 20px;
+}
