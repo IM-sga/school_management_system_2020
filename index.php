@@ -62,7 +62,7 @@
 	<section id="quotation">
 		<div class="container">
 			<p>“Tell me and I forget, teach me and I may remember, involve me and I learn.”</p>
-			<p> ― Benjamin Franklin</p>
+			<p class="author"> ― Benjamin Franklin</p>
 		</div>
 	</section>
 	
@@ -151,6 +151,7 @@
 			duration: 2000,
 			origin: 'right',
 			distance: '300px'
+			
 		});
 		sr.reveal('.card', {
 			duration: 2000,
@@ -160,7 +161,12 @@
 		sr.reveal('#card-button', {
 			duration: 2000,
 			delay: 2000,
+			origin: 'bottom'
+		});
+		sr.reveal('#quotation div', {
+			duration: 2000,
 			origin: 'bottom',
+			viewFactor: 0.2
 		});
 	</script>
 
