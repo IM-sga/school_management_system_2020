@@ -58,14 +58,39 @@
 	
 
 
-	<!-- content -->
+	<!-- FIRST CONTENT ITEM (quotation section) -->
 	<section id="quotation">
 		<div class="container">
 			<p>“Tell me and I forget, teach me and I may remember, involve me and I learn.”</p>
 			<p class="author"> ― Benjamin Franklin</p>
 		</div>
 	</section>
-	
+	<!-- SECOND CONTENT ITEM (Features offered by website) -->
+	<section id="features">
+		<div class="card-deck m-5">
+			<div class="card">
+				<img src="public/assets/images/final.jpg" class="card-img-top" alt="PDF icon. PNG file.">
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				</div>
+			</div>
+			<div class="card">
+				<img src="public/assets/images/pdf.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+				</div>
+			</div>
+			<div class="card">
+				<img src="public/assets/images/pdf.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+				</div>
+			</div>
+		</div>
+	</section>
 	<div>
 		<h2 class="page-header">LOREM IPSUM</h2>
 		<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
