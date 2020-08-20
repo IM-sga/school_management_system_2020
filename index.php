@@ -8,6 +8,8 @@
 	<link rel="stylesheet" type="text/css" href="public/css/bootstrap.min.css">
 	<script src="https://unpkg.com/scrollreveal"></script>
 	<link rel="stylesheet" type="text/css" href="public/css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 </head>
 <body>
@@ -56,8 +58,6 @@
 	</div>
 
 	
-
-
 	<!-- FIRST CONTENT ITEM (quotation section) -->
 	<section id="quotation">
 		<div class="container">
@@ -67,28 +67,41 @@
 	</section>
 	<!-- SECOND CONTENT ITEM (Features offered by website) -->
 	<section id="features">
-		<div class="card-deck m-5">
-			<div class="card">
-				<img src="public/assets/images/docs.jpg" class="card-img-top" alt="PDF icon. PNG file.">
-				<div class="card-body">
-					<h5 class="card-title">Card title</h5>
-					<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+		<div class="card-deck mb-2 p-5">
+			<div class="row">
+				<div class="card col-sm-6 col-xs-12">
+				<img src="public/assets/images/docs.jpg" class="card-img-top" alt="PDF icon. JPG file.">
+					<div class="card-body">
+						<h5 class="card-title">DOWNLOAD YOUR DOCUMENTS</h5>
+						<p class="card-text"> Have an easy access to your lessons by downloading files given by your instructor! </p>
+					</div>
+				</div>
+				<div class="card col-sm-6 col-xs-12">
+				<img src="public/assets/images/mssg.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">ONLINE CONSULTATION</h5>
+						<p class="card-text">Have a scheduled online consultation with your lecturer.</p>
+					</div>
+				</div>
+				<div class="card col-sm-6 col-xs-12" id="right">
+				<img src="public/assets/images/quiz4.png" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title"> ACTIVITIES & QUIZZES</h5>
+						<p class="card-text">Do activities and quizzes in your own time.</p>
+					</div>
+				</div>
+				<div class="card col-sm-6 col-xs-12" id="right">
+				<img src="public/assets/images/grade3.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title"> GRADE MONITORING</h5>
+						<p class="card-text"> Get track of your scores and grades.</p>
+					</div>
 				</div>
 			</div>
-			<div class="card">
-				<img src="public/assets/images/pdf.png" class="card-img-top" alt="...">
-				<div class="card-body">
-					<h5 class="card-title">Card title</h5>
-					<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-				</div>
-			</div>
-			<div class="card">
-				<img src="public/assets/images/pdf.png" class="card-img-top" alt="...">
-				<div class="card-body">
-					<h5 class="card-title">Card title</h5>
-					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-				</div>
-			</div>
+			
+		
+			
+	
 		</div>
 	</section>
 	<div>
@@ -191,6 +204,16 @@
 		sr.reveal('#quotation div', {
 			duration: 2000,
 			origin: 'bottom',
+			viewFactor: 0.2
+		});
+		sr.reveal('.card', {
+			duration: 2000,
+			origin: 'left',
+			viewFactor: 0.2
+		});
+		sr.reveal('#right', {
+			duration: 2000,
+			origin: 'right',
 			viewFactor: 0.2
 		});
 	</script>
