@@ -59,3 +59,22 @@
     color: #666;
     font-size: 20px;
 }
+.card-deck {
+    background-color: 	#FFCC00;
+    background-size: 100%; 
+    background: no repeat;
+    height: 80vh;
+    min-height: 300px;
+    -webkit-background-size: cover;
+    background-size: cover;
+   
+
+}
+
+
+.card-body h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card-body p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
